@@ -468,3 +468,23 @@
      border-radius: 50%;
      box-shadow: 0 0 0 20px rgba(255,255,255,.1);
  }
+
+
+
+
+/* #media queries
+ ================================================== */
+
+ @media screen and (max-width: 506px) {
+    .mobile{
+        display:flex;
+        flex-direction: column;
+    }
+ }
+
+ @media screen and (max-width: 410px) {
+    .travel-section h3, .wildlife-section h3, .nature-section h3{
+        font-size: 26px;
+    }
+ }
+
