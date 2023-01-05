@@ -154,14 +154,17 @@
  body.travel-on .hero-section {
      transform: rotateX(-10deg);
      transition-delay: 0ms;
+     opacity: 0;
  }
  body.wildlife-on .hero-section {
      transform: rotateX(-10deg);
      transition-delay: 0ms;
+     opacity: 0;
  }
  body.nature-on .hero-section {
      transform: rotateX(-10deg);
      transition-delay: 0ms;
+     opacity: 0;
  }
  .about-text {
      position: absolute;
@@ -479,15 +482,6 @@
     .mobile{
         display:flex;
         flex-direction: column;
-    }
-    body.travel-on .hero-section {
-        opacity: 0;
-    }
-    body.wildlife-on .hero-section {
-        opacity: 0;
-    }
-    body.nature-on .hero-section {
-        opacity: 0;
     }
  }
 
