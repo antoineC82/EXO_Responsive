@@ -154,9 +154,7 @@
  body.travel-on .hero-section {
      transform: rotateX(-10deg);
      transition-delay: 0ms;
- }
- body.travel-on{
-    z-index: 1000;
+     z-index: 1000;
  }
  body.wildlife-on .hero-section {
      transform: rotateX(-10deg);
